@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(37, 5, 37);
+    color: rgb(232, 223, 232);
+    scroll-behavior: smooth;
+  }
+  
+  h1 {
+    color: rgb(255, 255, 255);
+  }
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+    background-color: rgb(18, 1, 26);
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, color 0.3s ease; 
+  }
+  
+  
+  nav a:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(70, 20, 70); 
+  }
+  section {
+    padding: 40px 20px;
+    margin-bottom: 30px;
+    max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  }
+  article {
+    background-color:  rgb(80, 25, 90);
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  }
+  @media (max-width: 600px) {
+    
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+      }
+    
+      section {
+        padding: 20px 10px;
+      }
+    
+      }
+      
+      
+      
+    
+  
