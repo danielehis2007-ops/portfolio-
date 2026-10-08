@@ -9,6 +9,7 @@ body {
     color: rgb(255, 255, 255);
   }
   nav ul {
+    margin: 0;
     list-style: none;
     display: flex;
     gap: 20px;
@@ -46,10 +47,11 @@ body {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
   }
   @media (max-width: 600px) {
-    
+    header {flex-direction:column;}
     nav ul {
         flex-direction: column;
         align-items: center;
+        
       }
     
       section {
@@ -85,15 +87,20 @@ body {
       position: sticky;
       top: 0;
       z-index: 100;
+      display: flex;
+align-items: center;
+gap: 15px;
+background-color: rgb(18, 1, 26);
     }
-    #home img {
-      width: 200px;
-      height: 200px;
+    header img {
+      width: 50px;
+      height: 50px;
       border-radius: 50%;
       object-fit: cover;
       object-position: top;
       display: block;
-      margin: 0 auto 20px;
+      margin: 0;
+      flex-shrink: 0;
       border: 3px solid rgb(10, 91, 91);
       box-shadow: 0 0 15px rgb(10, 91, 91), 0 0 30px rgb(10, 91, 91);
     }
