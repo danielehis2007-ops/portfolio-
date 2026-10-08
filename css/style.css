@@ -81,8 +81,8 @@ gap: 15px;
 background-color: rgb(18, 1, 26);
     }
     header img {
-      width: 90px;
-      height: 90px;
+      width: 120px;
+      height: 120px;
       border-radius: 50%;
       object-fit: cover;
       object-position: top;
@@ -106,13 +106,13 @@ nav a {
 }
 
 header img {
-  width: 70px;
-  height: 70px;
+  width: 90px;
+  height: 90px;
 }
     
       section {
         padding: 20px 10px;
-        scroll-margin-top: 150px;
+        scroll-margin-top: 160px;
       }
      
       
